@@ -1,0 +1,13 @@
+
+
+.custom-tab-vertical .MuiTabs-indicator{
+    background-color: transparent;
+}
+
+.custom-tab-vertical .custom-tab-items{
+    align-items: start;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+}

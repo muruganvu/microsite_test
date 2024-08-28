@@ -1,0 +1,117 @@
+
+.about-img{
+    position: relative;
+    margin: 0 20px 20px 0;
+    z-index: 999;
+}
+.about-img img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.about-img-layer {
+    /* background: #EF233C; */
+    top: 13px;
+    left: -10px;
+    width: 10%;
+    height: 90%;
+    Transform: rotate(0deg);
+    z-index: -1;
+    display:block;
+    position:absolute;
+  }
+
+  .brand-img-div{
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    margin: 0 10px!important;
+  
+}
+.brand-img-div img{
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+.brand-text{
+    border:1px solid #ededed;
+    color: #0078C1!important;
+    text-decoration: none!important;
+    margin: 0 10px!important;
+    padding: 10px;
+   
+}
+
+.videoslider .slick-slide{
+    transform: scale(0.7);
+    transition: transform 300ms;
+}
+.videoslider .slick-slide.slick-center{
+    transform: scale(1);
+}
+.read-or-hide{
+    color: #EF233C;
+    margin-left: 5px;
+}
+
+.explore-img{
+    -webkit-flex-align: center;
+    display: flex;
+    margin: 0 10px!important;
+}
+.videoslider .slick-slide img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.slick-slide {
+    height: auto; 
+  }
+  /* .slick-track {
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  } */
+
+.explore-img{
+    margin: 0 10px!important;
+    display: flex;
+    -webkit-flex-align: center;
+}
+
+.explore-img img{
+    max-width: 100%;
+}
+.brand-text-sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.brand-text{
+    margin: 8px 10px!important;
+}
+.brand-img-sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.brand-img-div{
+    height: 35px;
+}
+.slick-slide img {
+    max-width: 100%;
+}
+
+@media (max-width:991px){
+    .brand-text{
+        margin: 8px 10px!important;
+        text-align: center;
+    }
+    .videoslider .slick-slide{
+        transform: scale(1);
+        transition: transform 300ms;
+    }
+}

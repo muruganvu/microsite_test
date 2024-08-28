@@ -1,0 +1,66 @@
+
+.login-page {
+  margin: 5.5% auto;
+  max-width: 460px;
+  width: 460px;
+  position: relative;
+}
+.split-login-page {
+  width: 80%;
+  max-width: 80%;
+  background: #fff;
+}
+
+.login-page-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: .25rem;
+  border: 0;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(154,154,204,.22);
+  -moz-box-shadow: 0 1px 2px 1px rgba(154,154,204,.22);
+  box-shadow: 0 1px 2px 1px rgba(154,154,204,.22);
+  margin-bottom: 30px
+}
+.split-login-page .login-page-card {
+  /* -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0; */
+  margin-bottom: 0;
+}
+
+.login-page-card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.login-page-logo{
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.split-login-page .login-box {
+  width: 49%;
+  display: inline-block;
+  padding: 30px;
+}
+
+
+.split-login-page .track-order-online {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  border-left: 1px solid #ccc;
+  padding: 30px;
+}
+
+.login-page-sec{
+  display: flex;
+}

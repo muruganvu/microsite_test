@@ -1,0 +1,9 @@
+
+
+.service-img-box{
+    border:1px solid #ccc;
+    padding: 10px;
+}
+.service-img-box img{
+    max-width:100%;
+}

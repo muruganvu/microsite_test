@@ -1,0 +1,54 @@
+
+
+.tech-bulletin-searchbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+}
+.tech-bulletin-searchbox p{
+    margin-right: 20px;
+}
+.tech-bulletin-searchbox button{
+    margin-left: 20px;
+}
+
+
+.tech-bulletin-box{
+    background: #fff;
+    display: flex;
+     align-items:center;
+     flex-direction:column;
+     box-shadow: 0 0 5px #ccc;
+     
+}
+.tech-bulletin-box-inner{
+    height: 100%;
+    width: 100%;
+}
+.tech-bulletin-box-img{
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 190px;
+    padding: 15px;
+}
+.tech-bulletin-box-img img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tech-bulletin-box-content p{
+    font-weight: 600;
+    padding: 10px;
+}
